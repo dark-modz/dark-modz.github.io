@@ -2465,7 +2465,7 @@ function loadTabs() {
         }
 
         function addTab(title, content = '', id = null) {
-    const defaultText = "--[[\n    Made by Salad\n    discord.gg/getsalad\n ]]";
+    const defaultText = "-- Script Executor";
     
     if (!content) {
         content = defaultText;
@@ -2798,7 +2798,7 @@ function setupAutosave() {
 				});
 			}
 			async function load() {
-				var docs = await(await fetch('https://raw.githubusercontent.com/iceycold3/monaco/refs/heads/main/lib.json')).json();
+				var docs = await(await fetch('https://dark-modz.github.io/darkx/libs.json')).json();
 
 				for (var prop in docs) {
   					  for(var item in docs[prop])
