@@ -1,0 +1,28 @@
+{
+  "themes": [
+    {
+      "title": "Red Gradient",
+      "id": 1,
+      "description": "Default Theme",
+      "status": "Trending",
+      "opacity": 0.7,
+      "imageURL": "https://i.imgur.com/xNSDz0l.jpeg"
+    },
+    {
+      "title": "One Piece",
+      "id": 2,
+      "description": "Anime",
+      "status": "Hot",
+      "opacity": 0.3,
+      "imageURL": "https://wallpapers.com/images/hd/subtle-anime-one-piece-thousand-sunny-mb003tv5e6paabk5.jpg"
+    },
+    {
+      "title": "Solid Black",
+      "id": 3,
+      "description": "Test",
+      "status": "Hot",
+      "opacity": 0.4,
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/68/Solid_black.png"
+    },
+  ]
+}
